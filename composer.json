@@ -1,0 +1,23 @@
+{
+  "name": "magehq/module-core",
+  "description": "Magehq Core for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Magehq",
+      "email": "support@magehq.com",
+      "homepage": "https://www.magehq.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magehq\\Core\\": ""
+    }
+  }
+}
